@@ -1,0 +1,21 @@
+{
+	"name": "node-vercel"
+	, "version": "1.1.2"
+	, "description": "Badge (shield) crafter for Markdown pages and links"
+	, "main": "index.js"
+	, "scripts": {
+		"start": "node app"
+		, "stop": "killall node"
+		, "test": "npm link"
+		, "dev": "nodemon app"
+		, "clean": "npm stop && rm -rf node_modules"
+		, "restart": "npm stop && npm start"
+		, "reboot": "npm run clean && npm install && npm start"
+		, "vercel-build": "npm install"
+	}
+	, "keywords": []
+	, "author": "sayan_shankhari"
+	, "repository":"https://github.com/TheScienceUniverse/node-vercel"
+	, "license": "LGPL-3.0-or-later"
+	, "dependencies": {}
+}
